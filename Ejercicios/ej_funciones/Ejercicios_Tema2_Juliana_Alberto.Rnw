@@ -68,7 +68,7 @@ Donde \(a\) y \(b\) son parámetros. Sabiendo que la función pasa por los punto
 
 \newpage
 \thispagestyle{fancy}
-b
+d
 
 
 \end{document}
