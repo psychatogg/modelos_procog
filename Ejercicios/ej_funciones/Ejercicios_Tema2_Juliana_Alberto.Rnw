@@ -93,18 +93,47 @@ a) $P_{2}$ informa del valor asintótico de la probabilidad de éxito, ya que $\
 
 b) Dado que el margen de mejora no puede ser superior al rendimiento máximo, ha de cumplirse:\\
 $(0 \leq P_{0} \leq 1) \bigcap (0 \leq P_{2} \leq 1) \bigcap (P_{0} \leq P_{2})$ \\
-
-
-
-
 \vspace{0.5cm}
 
 4.- Se asume que la probabilidad \(P\), de acertar un ítem en función del nivel de habilidad \(\theta\), viene determinada por la función:
 \[
 P(\theta)=0,50+\left[(1-0,50) \cdot \frac{1}{1+e^{-a \cdot(\theta-b)}}\right]
 \]
-Donde \(a\) y \(b\) son parámetros. Sabiendo que la función pasa por los puntos: \(\left(2,0,5+\frac{\mathbf{0}, 5}{\mathbf{1}+\boldsymbol{e}^{a}}\right)\) y \(\left(5, \frac{\mathbf{1}+\mathbf{0}, 5 \cdot \boldsymbol{e}^{-b}}{\mathbf{1}+\boldsymbol{e}^{-\boldsymbol{b}}}\right)\), obtener razonadamente los valores de los parámetros \(a\) y \(b\).
+Donde \(a\) y \(b\) son parámetros. Sabiendo que la función pasa por los puntos: \(\left(2,0,5+\frac{\mathbf{0}, 5}{\mathbf{1}+\boldsymbol{e}^{a}}\right)\) y \(\left(5, \frac{\mathbf{1}+\mathbf{0}, 5 \cdot \boldsymbol{e}^{-b}}{\mathbf{1}+\boldsymbol{e}^{-\boldsymbol{b}}}\right)\), obtener razonadamente los valores de los parámetros \(a\) y \(b\). \\
 \vspace{0.5cm}
+Obtenemos el parámetro $b$ a partir de las coordenadas facilitadas:
+$$
+\begin{aligned}
+&0,5+\frac{0,5}{1+e^a}=0,5+\frac{0,5}{1+e^{-a(2-b)}} \\
+&0,5\left(1+\frac{1}{1+e^a}\right)=0,5\left(1+\frac{1}{1+e^{-a(2-b)}}\right). \\
+&1+\left(\frac{1}{1+e^a}\right)=1+\frac{1}{1+e^{-a(2-b)}} \\
+&\left(\frac{1}{1+e^a}\right) = \frac{1}{1+e^{-a(2-b)}} \\
+&1+e^a=1+e^{-a(2-b)} \\
+&e^a=e^{-a(2-b)} \\
+&\ln e^a=\ln (e^{-a(2-b)}) \\
+&a \ln e=-a(2-b) \ln e \\
+&-1 = 2-b \\
+&b = \frac{1}{2} \\
+\end{aligned}
+$$
+Obtenemos $a$ a partir del parámetro $b$ y las coordenadas facilitadas: 
+
+$$
+\begin{aligned}
+&\frac{1+0,5 \cdot e^{-\frac{1}{2}}}{1+e^{-\frac{1}{2}}}=0,5+0,5 \cdot \frac{1}{1+e^{-a\left(5-\frac{1}{2}\right)}} \\
+&\frac{1+0,5 \cdot e^{-\frac{1}{2}}}{1+e^{-\frac{1}{2}}}-0,5=\frac{0,5}{1+e^{-a\frac{9}{2}}} \\
+&\frac{1+0,5 \cdot \frac{1}{\sqrt{e}}}{1+\frac{1}{\sqrt{e}}}-0,5=\frac{0,5}{1+e^{-\frac{9}{2} a}} \\
+&\frac{1+\frac{0,5}{\sqrt{e}}}{1+\frac{1}{\sqrt{e}}}-0,5=\frac{0,5}{1+e^{-\frac{9}{2} a}} \\
+&\frac{1+\frac{0,5}{\sqrt{e}}-\left(0,5+\frac{0,5}{\sqrt{e}}\right)}{1+\frac{1}{\sqrt{e}}}=\frac{0,5}{1+e^{-\frac{9}{2} a}} \\
+&\frac{0,5}{1+\frac{1}{\sqrt{e}}}=\frac{0,5}{1+e^{-\frac{9}{2} a}} \\
+&\frac{1}{1+\frac{1}{\sqrt{e}}}=\frac{1}{1+e^{-\frac{9}{2} a}} \\
+\end{aligned}
+$$
+
+
+
+
+
 
 
 
