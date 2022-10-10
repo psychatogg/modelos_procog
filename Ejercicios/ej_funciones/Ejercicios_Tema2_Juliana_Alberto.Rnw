@@ -127,6 +127,11 @@ $$
 &\frac{1+\frac{0,5}{\sqrt{e}}-\left(0,5+\frac{0,5}{\sqrt{e}}\right)}{1+\frac{1}{\sqrt{e}}}=\frac{0,5}{1+e^{-\frac{9}{2} a}} \\
 &\frac{0,5}{1+\frac{1}{\sqrt{e}}}=\frac{0,5}{1+e^{-\frac{9}{2} a}} \\
 &\frac{1}{1+\frac{1}{\sqrt{e}}}=\frac{1}{1+e^{-\frac{9}{2} a}} \\
+&1+\frac{1}{\sqrt{e}}=1+e^{-\frac{9}{2} a} \\
+&e^{-\frac{1}{2}}=e^{-\frac{9}{2} a} \\
+&\ln e^{-\frac{1}{2}}=\ln e^{-\frac{9}{2} a} \\
+&-\frac{1}{2}=-\frac{9}{2} a \\
+&a = 4 \\
 \end{aligned}
 $$
 
