@@ -149,7 +149,7 @@ $$
 h={(y_1,x_1),(y_2,x_1)}
 $$
 
-b) $f(x) = |x|$ cumple con la definición de función, ya que el primer miembro de cada par ordenado es diferente en su definición por extensión. Sin embargo, en su inversa, el primer miembro de cada par ordenado es igual:
+b) $f(x) = |x|$. En este caso, $f$ cumple con la definición de función, ya que el primer miembro de cada par ordenado es diferente en su definición por extensión. Sin embargo, en su inversa, el primer miembro de cada par ordenado es igual:
 $$
 \begin{aligned}
 &x = \pm y \\
