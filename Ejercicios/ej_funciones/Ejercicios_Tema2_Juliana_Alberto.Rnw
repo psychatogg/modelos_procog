@@ -101,6 +101,7 @@ P(\theta)=0,50+\left[(1-0,50) \cdot \frac{1}{1+e^{-a \cdot(\theta-b)}}\right]
 \]
 Donde \(a\) y \(b\) son parámetros. Sabiendo que la función pasa por los puntos: \(\left(2,0,5+\frac{\mathbf{0}, 5}{\mathbf{1}+\boldsymbol{e}^{a}}\right)\) y \(\left(5, \frac{\mathbf{1}+\mathbf{0}, 5 \cdot \boldsymbol{e}^{-b}}{\mathbf{1}+\boldsymbol{e}^{-\boldsymbol{b}}}\right)\), obtener razonadamente los valores de los parámetros \(a\) y \(b\). \\
 \vspace{0.5cm}
+
 Obtenemos el parámetro $b$ a partir de las coordenadas facilitadas:
 $$
 \begin{aligned}
@@ -134,21 +135,19 @@ $$
 &a = 4 \\
 \end{aligned}
 $$
-
-
-
-
-
-
-
-
-
 \vspace{0.5cm}
 
 5.- Responder razonadamente a las dos siguientes cuestiones: a) Definir por extensión una función \(h\) que cumpla que \(h^{-1}\) no satisfaga la definición de función; b) Proponer una ecuación matemática que satisfaga la definición de función, pero la inversa de ésta no la satisfaga. [Para el apartado b) no se puede utilizar una función con la expresión \(f(x)=x^{n}\) , donde \(n\) es un número par].
 \vspace{0.5cm}
 
-
+a) Si ha de  cumplirse:
+$$
+h^{-1}={(x_1,y_1), (x_1,y_2)}
+$$
+Entonces, h podría adquirir la siguiente forma:
+$$
+h={(y_1,x_1),(y_2,x_1)}
+$$
 
 
 
