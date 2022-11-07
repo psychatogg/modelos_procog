@@ -54,20 +54,18 @@ $1.5-f(x)=\sum_{i=1}^{K}\left(a_{i}+b_{i} \cdot \\
 \operatorname{Ln}(x)\right)^{2}$ \\
 
 \vspace{0.5cm}
-1.1 -
+
 $$
 \begin{aligned}
+&1.1 - \\
 &f(x)=(\sqrt{k \cdot x})^3 \\
 &f(x)=(k \cdot x)^{\frac{3}{2}} \\
 &\text { Dom } f=\{\mathbb{R}: k x \geqslant 0\} \\
 &f^{\prime}(x)=\frac{3}{2} \cdot(k \cdot x)^{\frac{1}{2}} \cdot k \\
 &f^{\prime}(x)=\frac{3}{2} \cdot \sqrt{k \cdot x} \cdot k \\
-&\operatorname{Dom} f^{\prime}=\{\mathbb{R}: k \cdot x \geqslant 0\}
-\end{aligned}
-$$
-1.2 -
-$$
-\begin{aligned}
+&\operatorname{Dom} f^{\prime}=\{\mathbb{R}: k \cdot x \geqslant 0\} \\
+\\
+&1.2 - \\
 &f(x)=\frac{e^{-\frac{(x-\mu)^2}{2 \cdot \sigma^2}}}{\sqrt{2 \cdot \pi} \cdot \sigma} \\
 &\operatorname{Dom} f=\mathbb{R} \\
 &f^{\prime}(x)=\frac{1}{\sqrt{2 \pi} \cdot \sigma} \cdot e^{-\frac{(x-\mu)^2}{2 \cdot \sigma^2}} \cdot\left(-\frac{1}{2 \cdot \sigma^2}\right) \cdot 2 \cdot(x-\mu) \\
