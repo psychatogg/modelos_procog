@@ -80,27 +80,43 @@ $1.5-f(x)=\sum_{i=1}^{K}\left(a_{i}+b_{i} \cdot \\
 &f^{\prime}(x) =\frac{2 \cdot(2 x+1)-(2 x-1) \cdot 2}{(2 x+1)^2} \\
 &f^{\prime}(x) =\frac{4}{(2 x+1)^2} \\
 &\operatorname{Dom} f^{\prime} =\mathbb{R}-\left\{-\frac{1}{2}\right\} \\
+\\
 &1.4 - \\
 &f(x)=\ln \left(\prod_{i=1}^n a_i^{x^2}\right)\\
 &\text {Aplicamos logaritmo de la potencia y extraemos factor común del productorio}\\
 &f(x)=x^2 \ln \left(\prod_{i=1}^n a_i\right)\\
 &\operatorname{Dom} f=\left\{\mathbb{R}: \prod_{i=1}^{n} a_i^{x^2}>0\right\}\\
 &f^{\prime}(x)=2 x \cdot \ln \left(\prod_{i=1}^n a_i\right)\\
-&\operatorname{Dom} f^{\prime}=\left\{\mathbb{R}: \prod_{i=1}^n a_i^{x^2}>0\right\}
+&\operatorname{Dom} f^{\prime}=\left\{\mathbb{R}: \prod_{i=1}^n a_i^{x^2}>0\right\} \\
+\\
+&1.5 - \\
+&f(x)=\sum_{i=1}^k\left(a_i+b_i \cdot \ln (x)\right)^2 \\
+&\operatorname{Dom} f=\{\mathbb{R}: x>0\} \\
+&\left.f^{\prime}(x)=\sum_{i=1}^k\left[2 \cdot\left(a_i+b_i \cdot \ln (x)\right) \cdot b_i \cdot \frac{1}{x}\right. \right] \\
+&f^{\prime}(x)= \sum_{i=1}^k\left[\left(2 a_i+2 b_i \ln (x)\right ) b_i \frac{1}{x}\right] \\
+&f^{\prime}(x)=2 b_i \sum_{i=1}^k\left[\frac{a_i+b_i \cdot \ln (x)}{x}\right]
 \end{align*}
-
-
-
-
-
-
-
-
 \vspace{0.5cm}
 
 
-2.- 
+2.- Responder razonadamente a las siguientes cuestiones:
+
+$2.1$ - Calcular máximos y mínimos relativos, si existen, de la función:
+
+$$
+f(x)=x^{3}+1,5 \cdot x^{2}-18 \cdot x+24
+$$
+
+$2.2$ - Si $\boldsymbol{f}(\boldsymbol{x})=\frac{\boldsymbol{a}}{\boldsymbol{x}^{2}}$, donde $a$ es una constante mayor que cero, decida razonadamente, sin utilizar derivadas de orden superior a la primera derivada, si $f$ tiene máximos o mínimos relativos.
+
+2.3- Dada la expresión $\sum_{i=1}^{N}\left[\boldsymbol{x}_{\boldsymbol{i}}-\left(\boldsymbol{\beta} \cdot \boldsymbol{x}_{\boldsymbol{i}}\right)\right]^{2}$, obtener razonadamente el valor de $\beta$ que hace que la expresión anterior tome un valor mínimo.
 \vspace{0.5cm}
+
+
+
+
+
+
 
 \vspace{0.5cm}
 
