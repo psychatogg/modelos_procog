@@ -80,6 +80,13 @@ $1.5-f(x)=\sum_{i=1}^{K}\left(a_{i}+b_{i} \cdot \\
 &f^{\prime}(x) =\frac{2 \cdot(2 x+1)-(2 x-1) \cdot 2}{(2 x+1)^2} \\
 &f^{\prime}(x) =\frac{4}{(2 x+1)^2} \\
 &\operatorname{Dom} f^{\prime} =\mathbb{R}-\left\{-\frac{1}{2}\right\} \\
+&1.4 - \\
+&f(x)=\ln \left(\prod_{i=1}^n a_i^{x^2}\right)\\
+&\text {Aplicamos logaritmo de la potencia y extraemos factor común del productorio}\\
+&f(x)=x^2 \ln \left(\prod_{i=1}^n a_i\right)\\
+&\operatorname{Dom} f=\left\{\mathbb{R}: \prod_{i=1}^{n} a_i^{x^2}>0\right\}\\
+&f^{\prime}(x)=2 x \cdot \ln \left(\prod_{i=1}^n a_i\right)\\
+&\operatorname{Dom} f^{\prime}=\left\{\mathbb{R}: \prod_{i=1}^n a_i^{x^2}>0\right\}
 \end{align*}
 
 
