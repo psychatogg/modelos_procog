@@ -25,7 +25,7 @@
 
        \textbf{\titlefont Tema 3. Derivadas}
 
-       \\
+       \vspace{0.5cm}
         {\subtitlefont Modelos de Procesos Cognitivos}
             
        \vspace{1.5cm}
@@ -53,7 +53,10 @@ a_{i}^{x^{2}}\right)$ \\
 
 $1.5-f(x)=\sum_{i=1}^{K}\left(a_{i}+b_{i} \cdot \\
 \operatorname{Ln}(x)\right)^{2}$ \\
-\\
+
+\vspace{0.5cm}
+
+
 \begin{align*}
 &1.1 - \\
 &f(x)=(\sqrt{k \cdot x})^3 \\
@@ -94,7 +97,9 @@ $1.5-f(x)=\sum_{i=1}^{K}\left(a_{i}+b_{i} \cdot \\
 &f^{\prime}(x)=2 b_i \sum_{i=1}^k\left[\frac{a_i+b_i \cdot \ln (x)}{x}\right] \\
 &\operatorname{Dom} f{^\prime}=\{x \in \mathbb{R}: x>0\} \\
 \end{align*}
-\\
+\vspace{0.5cm}
+
+
 2.- Responder razonadamente a las siguientes cuestiones:
 
 $2.1$ - Calcular máximos y mínimos relativos, si existen, de la función:
@@ -102,7 +107,7 @@ $2.1$ - Calcular máximos y mínimos relativos, si existen, de la función:
 $$
 f(x)=x^{3}+1,5 \cdot x^{2}-18 \cdot x+24
 $$
-\\
+\vspace{0.5cm}
 Calculamos la derivada primera y la igualamos a 0 para localizar los puntos en los que la pendiente de la recta tangente es nula:
 \begin{align*}
 &f(x)=x^{3}+1,5 \cdot x^{2}-18 \cdot x+24 \\
@@ -132,37 +137,38 @@ Calculamos la derivada primera y la igualamos a 0 para localizar los puntos en l
 &\text { Dom } f^{\prime}=\mathbb{R}-\{0\}\\
 &-\frac{2 a}{x^3}=0\\
 \end{align*}
-$\nexists x : f^{\prime}(x) = 0$, por lo que la pendiente de la recta tangente nunca será 0, y por lo tanto, f no tendrá ni máximos ni mínimos.
+$\nexists x : f^{\prime}(x) = 0$, por lo que la pendiente de la recta tangente nunca será 0, y por lo tanto, f no tendrá ni máximos ni mínimos. \\
 \\
-2.3- Dada la expresión $\sum_{i=1}^{N}\left[\boldsymbol{x}_{\boldsymbol{i}}-\left(\boldsymbol{\beta} \cdot \boldsymbol{x}_{\boldsymbol{i}}\right)\right]^{2}$, obtener razonadamente el valor de $\beta$ que hace que la expresión anterior tome un valor mínimo.
+2.3- Dada la expresión $\sum_{i=1}^{N}\left[\boldsymbol{x}_{\boldsymbol{i}}-\left(\boldsymbol{\beta} \cdot \boldsymbol{x}_{\boldsymbol{i}}\right)\right]^{2}$, obtener razonadamente el valor de $\beta$ que hace que la expresión anterior tome un valor mínimo. \\
+\\
+Tendremos que encontrar en primer lugar un valor de $\beta$ para el cual $f^{prime}(x_i) = 0$:\\
 
 
 
 
 
 
-
-
-
+\vspace{0.5cm}
 
 3.- 
+\vspace{0.5cm}
 
 
-
+\vspace{0.5cm}
 
 4.- 
+\vspace{0.5cm}
 
 
-
-
+\vspace{0.5cm}
 
 5.- 
+\vspace{0.5cm}
 
 
 
 
 
 
-
-
+\vspace{0.5cm}
 \end{document}
