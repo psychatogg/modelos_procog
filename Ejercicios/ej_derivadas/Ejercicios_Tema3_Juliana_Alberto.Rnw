@@ -106,7 +106,16 @@ $2.1$ - Calcular máximos y mínimos relativos, si existen, de la función:
 $$
 f(x)=x^{3}+1,5 \cdot x^{2}-18 \cdot x+24
 $$
+\vspace{0.5cm}
+\begin
 
+
+
+
+
+
+
+\vspace{0.5cm}
 $2.2$ - Si $\boldsymbol{f}(\boldsymbol{x})=\frac{\boldsymbol{a}}{\boldsymbol{x}^{2}}$, donde $a$ es una constante mayor que cero, decida razonadamente, sin utilizar derivadas de orden superior a la primera derivada, si $f$ tiene máximos o mínimos relativos.
 
 2.3- Dada la expresión $\sum_{i=1}^{N}\left[\boldsymbol{x}_{\boldsymbol{i}}-\left(\boldsymbol{\beta} \cdot \boldsymbol{x}_{\boldsymbol{i}}\right)\right]^{2}$, obtener razonadamente el valor de $\beta$ que hace que la expresión anterior tome un valor mínimo.
