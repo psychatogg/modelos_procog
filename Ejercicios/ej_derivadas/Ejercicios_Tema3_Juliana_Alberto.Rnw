@@ -25,7 +25,7 @@
 
        \textbf{\titlefont Tema 3. Derivadas}
 
-       \vspace{0.5cm}
+       \\
         {\subtitlefont Modelos de Procesos Cognitivos}
             
        \vspace{1.5cm}
@@ -53,10 +53,7 @@ a_{i}^{x^{2}}\right)$ \\
 
 $1.5-f(x)=\sum_{i=1}^{K}\left(a_{i}+b_{i} \cdot \\
 \operatorname{Ln}(x)\right)^{2}$ \\
-
-\vspace{0.5cm}
-
-
+\\
 \begin{align*}
 &1.1 - \\
 &f(x)=(\sqrt{k \cdot x})^3 \\
@@ -97,9 +94,7 @@ $1.5-f(x)=\sum_{i=1}^{K}\left(a_{i}+b_{i} \cdot \\
 &f^{\prime}(x)=2 b_i \sum_{i=1}^k\left[\frac{a_i+b_i \cdot \ln (x)}{x}\right] \\
 &\operatorname{Dom} f{^\prime}=\{x \in \mathbb{R}: x>0\} \\
 \end{align*}
-\vspace{0.5cm}
-
-
+\\
 2.- Responder razonadamente a las siguientes cuestiones:
 
 $2.1$ - Calcular máximos y mínimos relativos, si existen, de la función:
@@ -107,7 +102,7 @@ $2.1$ - Calcular máximos y mínimos relativos, si existen, de la función:
 $$
 f(x)=x^{3}+1,5 \cdot x^{2}-18 \cdot x+24
 $$
-\vspace{0.5cm}
+\\
 Calculamos la derivada primera y la igualamos a 0 para localizar los puntos en los que la pendiente de la recta tangente es nula:
 \begin{align*}
 &f(x)=x^{3}+1,5 \cdot x^{2}-18 \cdot x+24 \\
@@ -125,27 +120,21 @@ Calculamos la derivada segunda para detectar crecimiento y decrecimiento a trav�
 &f^{\prime \prime}(2)=+15 \\
 &f^{\prime \prime}(-3)=-15 \\
 \end{align*}
-Encontramos pues un mínimo local en x = 2 y un máximo local en x = -3.
-\vspace{0.5cm}
-$2.2$ - Si $\boldsymbol{f}(\boldsymbol{x})=\frac{\boldsymbol{a}}{\boldsymbol{x}^{2}}$, donde $a$ es una constante mayor que cero, decida razonadamente, sin utilizar derivadas de orden superior a la primera derivada, si $f$ tiene máximos o mínimos relativos.
-\vspace{0.5cm}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Encontramos pues un mínimo local en x = 2 y un máximo local en x = -3. \\
+\\
+$2.2$ - Si $\boldsymbol{f}(\boldsymbol{x})=\frac{\boldsymbol{a}}{\boldsymbol{x}^{2}}$, donde $a$ es una constante mayor que cero, decida razonadamente, sin utilizar derivadas de orden superior a la primera derivada, si $f$ tiene máximos o mínimos relativos. \\
+\\
+Calculamos la derivada primera y la igualamos a 0 para localizar los puntos en los que la pendiente de la recta tangente es nula:
+\begin{align*}
+&f(x)=\frac{a}{x^2}\\
+&\operatorname{Dom} f=\mathbb{R}-\{0\}\\
+&f^{\prime}(x)=\frac{-2 \cdot a}{x^3}\\
+&\text { Dom } f^{\prime}=\mathbb{R}-\{0\}\\
+&-\frac{2 a}{x^3}=0\\
+\end{align*}
+$\nexists x : f^{\prime}(x) = 0$, por lo que la pendiente de la recta tangente nunca será 0, y por lo tanto, f no tendrá ni máximos ni mínimos.
+\\
 2.3- Dada la expresión $\sum_{i=1}^{N}\left[\boldsymbol{x}_{\boldsymbol{i}}-\left(\boldsymbol{\beta} \cdot \boldsymbol{x}_{\boldsymbol{i}}\right)\right]^{2}$, obtener razonadamente el valor de $\beta$ que hace que la expresión anterior tome un valor mínimo.
-\vspace{0.5cm}
 
 
 
@@ -153,27 +142,27 @@ $2.2$ - Si $\boldsymbol{f}(\boldsymbol{x})=\frac{\boldsymbol{a}}{\boldsymbol{x}^
 
 
 
-\vspace{0.5cm}
+
+
 
 3.- 
-\vspace{0.5cm}
 
 
-\vspace{0.5cm}
+
 
 4.- 
-\vspace{0.5cm}
 
 
-\vspace{0.5cm}
+
+
 
 5.- 
-\vspace{0.5cm}
 
 
 
 
 
 
-\vspace{0.5cm}
+
+
 \end{document}
