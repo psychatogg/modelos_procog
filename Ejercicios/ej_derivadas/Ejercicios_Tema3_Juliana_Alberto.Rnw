@@ -61,10 +61,10 @@ $1.5-f(x)=\sum_{i=1}^{K}\left(a_{i}+b_{i} \cdot \\
 &1.1 - \\
 &f(x)=(\sqrt{k \cdot x})^3 \\
 &f(x)=(k \cdot x)^{\frac{3}{2}} \\
-&\text { Dom } f=\{\mathbb{R}: k x \geqslant 0\} \\
+&\operatorname {Dom} f = \{x \in \mathbb{R}: k x \geqslant 0\} \\
 &f^{\prime}(x)=\frac{3}{2} \cdot(k \cdot x)^{\frac{1}{2}} \cdot k \\
 &f^{\prime}(x)=\frac{3}{2} \cdot \sqrt{k \cdot x} \cdot k \\
-&\operatorname{Dom} f^{\prime}=\{\mathbb{R}: k \cdot x \geqslant 0\} \\
+&\operatorname {Dom} f^{\prime} = \{x \in \mathbb{R}: k x \geqslant 0\} \\
 \\
 &1.2 - \\
 &f(x)=\frac{e^{-\frac{(x-\mu)^2}{2 \cdot \sigma^2}}}{\sqrt{2 \cdot \pi} \cdot \sigma} \\
@@ -85,16 +85,17 @@ $1.5-f(x)=\sum_{i=1}^{K}\left(a_{i}+b_{i} \cdot \\
 &f(x)=\ln \left(\prod_{i=1}^n a_i^{x^2}\right)\\
 &\text {Aplicamos logaritmo de la potencia y extraemos factor común del productorio}\\
 &f(x)=x^2 \ln \left(\prod_{i=1}^n a_i\right)\\
-&\operatorname{Dom} f=\left\{\mathbb{R}: \prod_{i=1}^{n} a_i^{x^2}>0\right\}\\
+&\operatorname{Dom} f=\left\{x \in \mathbb{R}: \prod_{i=1}^{n} a_i^{x^2}>0\right\}\\
 &f^{\prime}(x)=2 x \cdot \ln \left(\prod_{i=1}^n a_i\right)\\
-&\operatorname{Dom} f^{\prime}=\left\{\mathbb{R}: \prod_{i=1}^n a_i^{x^2}>0\right\} \\
+&\operatorname{Dom} f^{\prime}=\left\{x \in \mathbb{R}: \prod_{i=1}^n a_i^{x^2}>0\right\} \\
 \\
 &1.5 - \\
 &f(x)=\sum_{i=1}^k\left(a_i+b_i \cdot \ln (x)\right)^2 \\
-&\operatorname{Dom} f=\{\mathbb{R}: x>0\} \\
+&\operatorname{Dom} f=\{x \in \mathbb{R}: x>0\} \\
 &\left.f^{\prime}(x)=\sum_{i=1}^k\left[2 \cdot\left(a_i+b_i \cdot \ln (x)\right) \cdot b_i \cdot \frac{1}{x}\right. \right] \\
 &f^{\prime}(x)= \sum_{i=1}^k\left[\left(2 a_i+2 b_i \ln (x)\right ) b_i \frac{1}{x}\right] \\
-&f^{\prime}(x)=2 b_i \sum_{i=1}^k\left[\frac{a_i+b_i \cdot \ln (x)}{x}\right]
+&f^{\prime}(x)=2 b_i \sum_{i=1}^k\left[\frac{a_i+b_i \cdot \ln (x)}{x}\right] \\
+&\operatorname{Dom} f{^\prime}=\{x \in \mathbb{R}: x>0\} \\
 \end{align*}
 \vspace{0.5cm}
 
@@ -107,16 +108,41 @@ $$
 f(x)=x^{3}+1,5 \cdot x^{2}-18 \cdot x+24
 $$
 \vspace{0.5cm}
-\begin
-
-
-
-
-
-
-
+Calculamos la derivada primera y la igualamos a 0 para localizar los puntos en los que la pendiente de la recta tangente es nula:
+\begin{align*}
+&f(x)=x^{3}+1,5 \cdot x^{2}-18 \cdot x+24 \\
+&\operatorname{Dom} f =\mathbb{R} \\
+&f^{\prime}(x)=3 x^2+3 x-18 \\
+&\operatorname{Dom} f^{\prime}=\mathbb{R} \\
+&3 x^2+3 x-18=0 \\
+&x=\frac{-3 \pm \sqrt{9-4[3 \cdot (-18)]}}{6} \\
+&x=\frac{-3 \pm 15}{6}=\left\{\begin{array}{l}x_1=+2 \\ x_2=-3\end{array}\right. \\
+\end{align*}
+Calculamos la derivada segunda para detectar crecimiento y decrecimiento a través del signo de esta:
+\begin{align*}
+&f^{\prime \prime}(x)=6 x+3 \\
+&\operatorname{Dom} f^{\prime \prime}=\mathbb{R} \\
+&f^{\prime \prime}(2)=+15 \\
+&f^{\prime \prime}(-3)=-15 \\
+\end{align*}
+Encontramos pues un mínimo local en x = 2 y un máximo local en x = -3.
 \vspace{0.5cm}
 $2.2$ - Si $\boldsymbol{f}(\boldsymbol{x})=\frac{\boldsymbol{a}}{\boldsymbol{x}^{2}}$, donde $a$ es una constante mayor que cero, decida razonadamente, sin utilizar derivadas de orden superior a la primera derivada, si $f$ tiene máximos o mínimos relativos.
+\vspace{0.5cm}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 2.3- Dada la expresión $\sum_{i=1}^{N}\left[\boldsymbol{x}_{\boldsymbol{i}}-\left(\boldsymbol{\beta} \cdot \boldsymbol{x}_{\boldsymbol{i}}\right)\right]^{2}$, obtener razonadamente el valor de $\beta$ que hace que la expresión anterior tome un valor mínimo.
 \vspace{0.5cm}
