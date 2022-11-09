@@ -141,15 +141,34 @@ $\nexists x : f^{\prime}(x) = 0$, por lo que la pendiente de la recta tangente n
 \\
 2.3- Dada la expresión $\sum_{i=1}^{N}\left[\boldsymbol{x}_{\boldsymbol{i}}-\left(\boldsymbol{\beta} \cdot \boldsymbol{x}_{\boldsymbol{i}}\right)\right]^{2}$, obtener razonadamente el valor de $\beta$ que hace que la expresión anterior tome un valor mínimo. \\
 \\
-Tendremos que encontrar en primer lugar un valor de $\beta$ para el cual $f^{prime}(x_i) = 0$:\\
-
-
-
-
-
-
+$ \operatorname{Dom} f=\mathbb{R} $ \\
+\\
+Tendremos que encontrar en primer lugar un valor de $\beta$ para el cual $f^{\prime}(\beta) = 0$:\\
+\begin{align*}
+&f(\beta)=\sum_{i=1}^N\left[x_i-\left(\beta \cdot x_i\right)\right]^2 \\
+&f^{\prime}(\beta)=2 \cdot \sum_{i=1}^N\left[x_i-\left(\beta \cdot x_i\right) \cdot\left(-x_i\right)\right] \\
+&f^{\prime}(\beta)=2 \cdot \sum_{i=1}^N\left[x_i+\beta x_i^2\right) \\
+&\operatorname{Dom} f^{\prime}=\mathbb{R} \\
+\end{align*}
+Si el contenido del sumatorio es 0, el resto de la expresión también lo será:
+\begin{align*}
+&x_i+\beta x_i^2=0 \\
+&\beta=-\frac{x_i}{x_i^2} \\
+&\beta=-\frac{1}{x_i} 
+\end{align*}
+Asumiendo que el punto crítico encontrado sea un vértice, analizamos el signo de las rectas tangentes a cada lado de este:
+\begin{align*}
+f^{\prime}\left(-\frac{1}{x_i}-1\right) &=2 \cdot \sum_{i=1}^N\left[x_i+\left(-\frac{1}{x_i}-1\right) \cdot x_i^2\right] \\
+f^{\prime}\left(-\frac{1}{x_i}-1\right) &=2 \cdot \sum_{i=1}^N\left[x_i+\left(-x_i-\left(x_i\right)^2\right)\right] \\
+f^{\prime}\left(-\frac{1}{x_i}-1\right) &=2 \cdot \sum_{i=1}^N\left[-\left(x_i\right)^2\right] \\
+\forall x_i & \neq 0 f \text { decrece } \\
+f^{\prime}\left(-\frac{1}{x_i}+1\right) &=2 \sum_{i=1}^N\left[x_i+\left(-\frac{1}{x_i}+1\right) \cdot x_i^2\right] \\
+f^{\prime}\left(-\frac{1}{x_i}+1\right) &=2 \cdot \sum_{i=1}^N\left[x_i+\left(-x_i+x_i^2\right)\right] \\
+f^{\prime}\left(-\frac{1}{x_i}+1\right) &=2 \cdot \sum_{i=1}^N\left(x_i^2\right) \\
+\forall x_i & \neq 0 \quad f \text { crece }
+\end{align*}
+Si a un lado del vértice f decrece, y a otro crece, podemos identificar un mínimo.
 \vspace{0.5cm}
-
 3.- 
 \vspace{0.5cm}
 
