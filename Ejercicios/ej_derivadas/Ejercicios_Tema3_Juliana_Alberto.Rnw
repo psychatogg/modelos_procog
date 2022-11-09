@@ -161,11 +161,11 @@ Asumiendo que el punto crítico encontrado sea un vértice, analizamos el signo 
 f^{\prime}\left(-\frac{1}{x_i}-1\right) &=2 \cdot \sum_{i=1}^N\left[x_i+\left(-\frac{1}{x_i}-1\right) \cdot x_i^2\right] \\
 f^{\prime}\left(-\frac{1}{x_i}-1\right) &=2 \cdot \sum_{i=1}^N\left[x_i+\left(-x_i-\left(x_i\right)^2\right)\right] \\
 f^{\prime}\left(-\frac{1}{x_i}-1\right) &=2 \cdot \sum_{i=1}^N\left[-\left(x_i\right)^2\right] \\
-\forall x_i & \neq 0 f \text { decrece } \\
+\beta = \left(-\frac{1}{x_i}-1\right), \forall x_i & \neq 0 f \text { decrece } \\
 f^{\prime}\left(-\frac{1}{x_i}+1\right) &=2 \sum_{i=1}^N\left[x_i+\left(-\frac{1}{x_i}+1\right) \cdot x_i^2\right] \\
 f^{\prime}\left(-\frac{1}{x_i}+1\right) &=2 \cdot \sum_{i=1}^N\left[x_i+\left(-x_i+x_i^2\right)\right] \\
 f^{\prime}\left(-\frac{1}{x_i}+1\right) &=2 \cdot \sum_{i=1}^N\left(x_i^2\right) \\
-\forall x_i & \neq 0 \quad f \text { crece }
+\beta = \left(-\frac{1}{x_i}+1\right), \forall x_i & \neq 0 \quad f \text { crece }
 \end{align*}
 Si a un lado del vértice f decrece, y a otro crece, podemos identificar un mínimo.
 \vspace{0.5cm}
