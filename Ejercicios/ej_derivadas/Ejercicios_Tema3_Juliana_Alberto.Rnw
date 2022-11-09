@@ -169,10 +169,35 @@ f^{\prime}\left(-\frac{1}{x_i}+1\right) &=2 \cdot \sum_{i=1}^N\left(x_i^2\right)
 \end{align*}
 Si a un lado del vértice f decrece, y a otro crece, podemos identificar un mínimo.
 \vspace{0.5cm}
-3.- 
+\\
+3.- La ecuación propuesta por Fechner que relaciona el nivel de sensación, $S$, con la intensidad del estímulo, $E$, es:
+
+$$
+S=k_{1} \cdot \operatorname{Ln}\left(\frac{E}{E_{0}}\right)
+$$
+
+Donde $k_{1} \mathrm{y} E_{0}$ son constantes mayores que cero. Responder razonadamente a las siguientes cuestiones: a) ¿cuál es la velocidad de cambio de $S$ cuando varía $E$ ?; b) decidir si la función es creciente o decreciente; y c) ¿existen valores máximos o mínimos de sensación?\\
 \vspace{0.5cm}
-
-
+a) \\
+Nos piden la derivada primera derivada de S con respecto a E, es decir, el cambio instantáneo de la intensidad que produce el cambio instantáneo de sensación del estímulo.
+\begin{align*}
+&f(E)=K_1 \cdot \ln \left(\frac{E}{E_0}\right)\\
+&\text { Dom } f=\mathbb{R}^{+}\\
+&f(E)=K_1 \cdot\left(\ln E-\ln E_0\right)\\
+&f^{\prime}(E)=K_1 \cdot\ \left(+\frac{1}{E}\right).\\
+&f^{\prime}(E)=\frac{K_1}{E} \\
+&\text { Dom } f^{\prime} =\mathbb{R} - \{0\} \\
+\end{align*}
+b) \\
+Para tal decisión, procedemos a analizar el símbolo de la 2º derivada. Realizamos este paso directamente, ya que $ \nexists E : f^{\prime}(E) = 0 $, no existiendo un vértice. \\
+\begin{align*}
+&f^{\prime}(E)=K_1 \cdot E^{-1}\\
+&f^{\prime \prime}(E)=K_1 \cdot(-E)^{-2}\\
+&f^{\prime \prime}(E)=-\frac{k_1}{E^2} \\
+\end{align*}
+Por lo tanto, $f$ es estrictamente creciente. \\
+c) \\
+$\nexists E : f^{\prime}(E) = 0 $, por lo que no podemos identificar máximos ni mínimos.
 \vspace{0.5cm}
 
 4.- 
