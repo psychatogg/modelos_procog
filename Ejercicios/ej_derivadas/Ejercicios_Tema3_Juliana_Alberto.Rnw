@@ -197,13 +197,29 @@ Para tal decisión, procedemos a analizar el símbolo de la 2º derivada. Realiz
 \end{align*}
 Por lo tanto, $f$ es estrictamente creciente. \\
 c) \\
-$\nexists E : f^{\prime}(E) = 0 $, por lo que no podemos identificar máximos ni mínimos.
+$\nexists E : f^{\prime}(E) = 0 $, por lo que no podemos identificar máximos ni mínimos. \\
 \vspace{0.5cm}
-
-4.- 
+4- Si la variable aleatoria discreta (vad) $X$ sigue una distribución Binomial con parámetros $N$ y $\pi$, obtener razonadamente el valor de $\pi$ que hace máxima la varianza de $X$ (asumir que el parámetro $N$ es constante). \\
 \vspace{0.5cm}
-
-
+$X \sim B(N, \pi)$ \\
+La $f$ de probabilidad de $X$ es: \\
+$$
+f\left(y_i ; \pi\right)=\pi^{y_i} \cdot(1-\pi)^{1-y_i}\\
+$$
+Por lo tanto al ser sucesos independientes, su función probabilidad conjunta es:
+$$
+f(\vec{y}, \vec{w})=\prod_{i=1}^N f\left(y_i ; \vec{w}\right)\\
+$$
+Dicha función, en términos de localización de parámetros es la función de verosimilitud: \\
+$$
+L(\pi ; \vec{y})=\pi^{\sum_{i=1}^n y_i} \cdot(1-\pi)^{\sum_{i=1}^n (1 - y_i)}\\
+$$
+Dado que $\widehat{g(\theta)}=g(\hat{\theta})$, \\
+\begin {align*}
+&\widehat{\sigma_x^2}=\hat{N} \cdot \hat{\pi} \cdot(\hat{1}-\hat{\pi}) \\
+&\widehat{\sigma_x^2} = N \cdot \left[\pi^{\sum_{i=1}^n y_i} \cdot (1-\pi)^{\sum_{i=1}^n (1 - y_i)}\right] \left\{1-[\pi^{\sum_{i=1}^n y_i} \cdot(1-\pi)^{\sum_{i=1}^n (1 - y_i)}]\right\}
+\end{align*}
+Por lo tanto, para obtener el estimador de máxima verosimilitud, primero tendremos que anular la primera derivada de tal expresión, y posteriormente, analizar el signo de la segunda en tal punto crítico. \\
 \vspace{0.5cm}
 
 5.- 
