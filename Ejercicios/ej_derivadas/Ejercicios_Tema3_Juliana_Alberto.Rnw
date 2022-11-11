@@ -7,6 +7,8 @@
 \usepackage{mhchem}
 \usepackage{stmaryrd}
 \usepackage{fancyhdr}
+\usepackage{graphicx}
+\graphicspath{ {.} }
 \fancyhf{}
 \fancyhead[R]{\thepage}
 \fancyhead[L]{Ejercicio Derivadas\\Alberto Juliana Quirós}
@@ -223,13 +225,48 @@ Dado que $\widehat{g(\theta)}=g(\hat{\theta})$, \\
 Por lo tanto, para obtener el estimador de máxima verosimilitud, primero tendremos que anular la primera derivada de tal expresión, y posteriormente, analizar el signo de la segunda en tal punto crítico. \\
 \vspace{0.5cm}
 
-5.- 
-\vspace{0.5cm}
+5.- En los estudios sobre la memoria, el modelo del olvido relaciona el tiempo, $t$, transcurrido desde que se memoriza un material y la probabilidad, $P$, de recordar éste. Estudios previos muestran que hay dos modelos que mejor se ajustan a los resultados experimentales: el modelo exponencial $y$ el modelo potencial. El modelo exponencial se define como: $\boldsymbol{P}(\boldsymbol{t})=\boldsymbol{a}+\mathbf{(} \mathbf{1}-\boldsymbol{a}) \cdot \boldsymbol{b} \cdot \boldsymbol{e}^{-\alpha \boldsymbol{t}}$ donde $a, b$ y $\alpha$ son constantes mayores que cero. El modelo potencial se define como $\boldsymbol{P}(\boldsymbol{t})=\boldsymbol{a}+\mathbf{( 1 - a ) \cdot b \cdot ( 1 + t )})^{-\beta}$, donde $a, b$ y $\beta$ son constantes mayores que cero.\\
 
+Sabiendo que en ambos modelos $a$ es igual a 0,19 y $b$ es igual a 0,78 , que en el modelo exponencial $\alpha$ es igual a 0,25 , y en el modelo potencial $\beta$ es igual a 0,68 , responda razonadamente a las siguientes cuestiones: a) obtener para cada uno de los modelos la velocidad de olvido; y b) estudiar si el modelo exponencial muestra una velocidad de olvido igual, mayor o menor que el modelo potencial. En caso de que sea diferente, determinar en qué intervalo o intervalos.\\
+\\
+a) La probabilidad de olvido será 1-P(t), ya que todo lo que no recuerdas es olvido. \\
+La velocidad de olvido será el incremento infinitesimal de probabilidad de olvido por cada incremento infinitesimal de tiempo. Esto es:\\
+Modelo exponencial: \\
+\begin{align*}
+&P_O(t)=1-\left[a+(1-a) \cdot b \cdot e^{-\alpha t}\right] \\
+&P_O^{\prime}(t)=-\left[(1-a) \cdot b \cdot e^{-\alpha t} \cdot(-\alpha)\right] \\
+&P_O^{\prime}(t)=0,15 \cdot e^{-0,25 t} \\
+\end{align*}
+Modelo potencial: \\
+\begin{align*}
+&P_O(t)=1-\left[a+(1-a) \cdot b \cdot(1+t)^{-\beta}\right] \\
+&P_O^{\prime}(t)=-\left[(1-a) \cdot b \cdot(-\beta) \cdot(1+t)^{-\beta-1}\right] \\
+&P_O^{\prime}(t) \quad 0,43 \cdot(1+t)^{-1,68} \\
+\end{align*}
+\\
+b) Queremos conocer la tasa de cambio (pendiente) de la velocidad de olvido. Para ello empleamos la 2º derivada: \\
+\begin{align*}
+&\text{Modelo exponencial} \\
+&P_0^{\prime}(t)=0,15 \cdot e^{-0,25 t} \\
+&P_0^{\prime \prime}(t)=0,15 \cdot e^{-0,25 t} \cdot(-0,25) \\
+&P_0^{\prime \prime}(t)=-0,04 \cdot e^{-0,25 t} \\
+&\\
+&\text{Modelo potencial} \\
+&P_0^{\prime}(t)=0,43 \cdot(1+t)^{-1,68} \\
+&P_0^{\prime \prime}(t)=0,43 \cdot(-1,68) \cdot(1+t)^{-2,68} \\
+&P_0^{\prime \prime}(t)=-0,72 \cdot(1+t)^{-2,68} \\
+\end{align*}
 
+Sabemos que ninguna de las 2 imágenes de las $P_O^{\prime}$ incluyen el 0, tratándose de una asíntota. Además, las segundas derivadas son de signo negativo, extrayendo que la recta tangente a la velocidad es negativa. Las imágenes de las siguientes derivadas tampoco incluirán el 0, al ser el numerador siempre $x \neq 0$, por lo que no localizamos máximos ni mínimos en $P_O^{\prime}$. Ambas $P_O^{\prime}$ serán por lo tanto estrictamente decrecientes. \\
+\\
+Dada la escala tanto del dominio como de la imagen con la que trabajamos en este contexto de psicología básica, opto por localizar los puntos de corte entre ambas $P_O^{\prime \prime}$ por medio de resolución gráfica. \\
 
-
-
-
+\includegraphics{Captura.PNG}
+\\
+\begin{align*}
+&t_1 = 2,83 \\
+&t_2 = 22,09 \\
+\end{align*}
+Por lo tanto, la $P_O^{\prime} \text {exponencial} > P_O^{\prime} \text {potencial} \ \forall t \in (2,83 , 22,09)$\\
 \vspace{0.5cm}
 \end{document}
