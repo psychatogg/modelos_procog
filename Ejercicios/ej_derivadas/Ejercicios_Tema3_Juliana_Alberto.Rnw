@@ -83,11 +83,12 @@ $1.5-f(x)=\sum_{i=1}^{K}\left(a_{i}+b_{i} \cdot \\
 \\
 &1.4 - \\
 &f(x)=\ln \left(\prod_{i=1}^n a_i^{x^2}\right)\\
-&\text {Aplicamos logaritmo de la potencia y extraemos factor común del productorio}\\
-&f(x)=x^2 \ln \left(\prod_{i=1}^n a_i\right)\\
-&\operatorname{Dom} f=\left\{x \in \mathbb{R}: \prod_{i=1}^{n} a_i^{x^2}>0\right\}\\
-&f^{\prime}(x)=2 x \cdot \ln \left(\prod_{i=1}^n a_i\right)\\
-&\operatorname{Dom} f^{\prime}=\left\{x \in \mathbb{R}: \prod_{i=1}^n a_i^{x^2}>0\right\} \\
+&\text {Aplicamos logaritmo del producto y, posteriormente, de la potencia}\\
+&f(x)=\sum_{i=1}^n \left(\ln a_i^{x^2}\right) \\
+&f(x)=\sum_{i=1}^n\left[x^2 \cdot \ln \left(a_i\right)\right] \\
+&\operatorname{Dom} f= \mathbb{R}\\
+&f^{\prime}(x)=\sum_{i=1}^n\left[2 x \cdot \ln \left(a_i\right)\right]\\
+&\operatorname{Dom} f^{\prime}= \mathbb{R}\\
 \\
 &1.5 - \\
 &f(x)=\sum_{i=1}^k\left(a_i+b_i \cdot \ln (x)\right)^2 \\
