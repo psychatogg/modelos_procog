@@ -244,29 +244,29 @@ Modelo potencial: \\
 &P_O^{\prime}(t) \quad 0,43 \cdot(1+t)^{-1,68} \\
 \end{align*}
 \\
-b) Queremos conocer la tasa de cambio (pendiente) de la velocidad de olvido. Para ello empleamos la 2º derivada: \\
+b) Con el fin de obtener más información sobre la forma de $P_0^{\prime}$, calculamos la tasa de cambio (pendiente) de la velocidad de olvido. Para ello empleamos la 2º derivada: \\
 \begin{align*}
 &\text{Modelo exponencial} \\
-&P_0^{\prime}(t)=0,15 \cdot e^{-0,25 t} \\
-&P_0^{\prime \prime}(t)=0,15 \cdot e^{-0,25 t} \cdot(-0,25) \\
-&P_0^{\prime \prime}(t)=-0,04 \cdot e^{-0,25 t} \\
+&P_O^{\prime}(t)=0,15 \cdot e^{-0,25 t} \\
+&P_O^{\prime \prime}(t)=0,15 \cdot e^{-0,25 t} \cdot(-0,25) \\
+&P_O^{\prime \prime}(t)=-0,04 \cdot e^{-0,25 t} \\
 &\\
 &\text{Modelo potencial} \\
-&P_0^{\prime}(t)=0,43 \cdot(1+t)^{-1,68} \\
-&P_0^{\prime \prime}(t)=0,43 \cdot(-1,68) \cdot(1+t)^{-2,68} \\
-&P_0^{\prime \prime}(t)=-0,72 \cdot(1+t)^{-2,68} \\
+&P_O^{\prime}(t)=0,43 \cdot(1+t)^{-1,68} \\
+&P_O^{\prime \prime}(t)=0,43 \cdot(-1,68) \cdot(1+t)^{-2,68} \\
+&P_O^{\prime \prime}(t)=-0,72 \cdot(1+t)^{-2,68} \\
 \end{align*}
 
 Sabemos que ninguna de las 2 imágenes de las $P_O^{\prime}$ incluyen el 0, tratándose de una asíntota. Además, las segundas derivadas son de signo negativo, extrayendo que la recta tangente a la velocidad es negativa. Las imágenes de las siguientes derivadas tampoco incluirán el 0, al ser el numerador siempre $x \neq 0$, por lo que no localizamos máximos ni mínimos en $P_O^{\prime}$. Ambas $P_O^{\prime}$ serán por lo tanto estrictamente decrecientes. \\
 \\
-Dada la escala tanto del dominio como de la imagen con la que trabajamos en este contexto de psicología básica, opto por localizar los puntos de corte entre ambas $P_O^{\prime \prime}$ por medio de resolución gráfica. \\
+Dada esta información obtenida, y la escala tanto del dominio como de la imagen con la que trabajamos en este contexto de psicología básica, opto por localizar los puntos de corte entre ambas $P_O^{\prime}$ por medio de resolución gráfica. \\
 
-\includegraphics{Captura.PNG}
+\includegraphics{Capturaprimera.PNG}
 \\
 \begin{align*}
-&t_1 = 2,83 \\
-&t_2 = 22,09 \\
+&t_1 \approx 1,26 \\
+&t_2 \approx 13,97 \\
 \end{align*}
-Por lo tanto, la $P_O^{\prime} \text {exponencial} > P_O^{\prime} \text {potencial} \ \forall t \in (2,83 , 22,09)$\\
+Por lo tanto, partiendo de que $\operatorname{Dom} P_O^{\prime} \geq 0$, la $P_O^{\prime} \text {exponencial} > P_O^{\prime} \text {potencial} \ \forall t \in (1,26 , 13,97)$\\
 \vspace{0.5cm}
 \end{document}
