@@ -55,7 +55,7 @@
 \\
 1.5.- $\int \operatorname{Ln}\left(\frac{4}{x}\right) d x$ \\
 \\
-1.6. $-\int 10^{\log _{10} x} d x$ \\
+1.6.- $\int 10^{\log _{10} x} d x$ \\
 \\
 \begin{align*}
 & 1.1.- \\
@@ -80,6 +80,41 @@
 & \int 0,5^{4 x} \cdot \operatorname{Ln}(0,5) d x = \\
 &\ln (0,5) \int 0,5^{4 x} d x= \\
 & \frac{\ln (0,5)}{4 \ln (0,5)} \int 0,5^{4 x} \cdot 4 \cdot \ln (0,5) d x= \\
-& \frac{0,5^{4 x}}{4}+C
+& \frac{0,5^{4 x}}{4}+C \\
+\\
+& 1.4.- \\
+& \int \frac{x+2}{3 \cdot x^{2}+12 \cdot x+12} d x \\
+& \text{Por sustitución:} \\
+& u=3 x^2+12 x+12 ; d u=6 x+12 d x \\
+& d u=6(x+2) d x \\
+& \frac{1}{6} d u = (x+2) d x \\
+\\
+& \int \frac{x+2}{3 \cdot x^{2}+12 \cdot x+12} d x = \\
+& \frac{1}{6} \int \frac{1}{u} d x= \\
+& \frac{1}{6} \ln (u)+C= \\
+& \frac{1}{6} \ln (3 x^2+12 x+12)+C\\
+\\
+& 1.5.- \\
+& \int \ln \left(\frac{4}{x}\right) d x= \\
+& \text{Propiedad del logaritmo de la división:} \\
+& \int \ln (4)-\ln (x) d x= \\
+& \ln (4) \int d x-\int \ln (x) d x= \\
+\\
+& \text{Integración por partes:} \\
+& u^{\prime} = 1; v = \ln (x) \\
+& \ln (4) \cdot x-\int 1 \cdot \ln (x) d x= \\
+& \ln (4) \cdot x-\left[x \cdot \ln (x)-\int x \cdot \frac{1}{x} d x\right]= \\
+& \ln (4) \cdot x-(x \cdot \ln (x)-x)+C \\
+\\
+& 1.6.- \\
+& \text{Por propiedad de la inversa de la exponencial, si $\log _a a^x=x$, entonces $a^{\log _a x}=x$. Por lo tanto:} \\
+& \int 10^{\log _{10} x} d x = \\
+& \int x d x= \\
+& \frac{x^2}{2}+C \\
 \end{align*}
+\\
+2.- En una investigación sobre la eficacia de los programas de extinción, dentro del marco del condicionamiento operante, se ha encontrado que la velocidad con la que disminuye el nivel de aprendizaje está determinada por la función $f(t)=-\mathbf{0}, 5 \cdot \boldsymbol{e}^{-2 \cdot \boldsymbol{t}}$, donde $t$ es el tiempo (en horas). Se pide: a) encontrar una función que permita obtener el nivel de aprendizaje en cualquier instante temporal $t$; b) ¿cuál es la perdida de nivel de aprendizaje, extinción, si el tiempo transcurrido es igual a 4 horas? \\
+\\
+
+
 \end{document}
