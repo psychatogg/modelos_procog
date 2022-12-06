@@ -115,6 +115,30 @@
 \\
 2.- En una investigación sobre la eficacia de los programas de extinción, dentro del marco del condicionamiento operante, se ha encontrado que la velocidad con la que disminuye el nivel de aprendizaje está determinada por la función $f(t)=-\mathbf{0}, 5 \cdot \boldsymbol{e}^{-2 \cdot \boldsymbol{t}}$, donde $t$ es el tiempo (en horas). Se pide: a) encontrar una función que permita obtener el nivel de aprendizaje en cualquier instante temporal $t$; b) ¿cuál es la perdida de nivel de aprendizaje, extinción, si el tiempo transcurrido es igual a 4 horas? \\
 \\
-
-
+a) Ya tenemos la función velocidad, que es la tasa de cambio infinitesimal del aprendizaje por unidad de tiempo, es decir, la derivada de la primitiva que hemos de hallar. Se trata de una integral indefinida, ya que no se especifica el lapso temporal en el que quedemos medir la pérdida de aprendizaje. \\
+\\
+\begin{align*}
+& f(t)=-0,5 \cdot e^{-2 t} \\
+& A p(t)=\int-0,5 \cdot e^{-2 t} d t= \\
+& \text{Extraemos la constante:} \\
+& -0,5 \int e^{-2 t} d t \\
+& \text{Por sustitución:} \\
+& u=-2 t ; d u=-2 d t \\
+& d t=-\frac{d u}{2} \\
+& -0,5 \int e^{-2 t} d t = -\frac{1}{2} \int e^u (-\frac{1}{2})  d u= \\
+& \text{Extraemos la constante:} \\
+& \frac{1}{4} \int e^u d u= \\
+& \frac{1}{4} e^u + C= \\
+& \frac{1}{4} e^{-2 t}+ C \\
+\end{align*}
+\\
+b) En este caso, sí que tenemos información respecto al lapso temporal de medida, por lo que por la Regla de Barrow: \\
+\begin{align*}
+& \left.\frac{1}{4} \cdot e^{-2 t}+C\right]_0^4= \\
+& \left(\frac{1}{4} \cdot e^{-2 \cdot 4}\right)-\frac{1}{4}= \\
+& \frac{e^{-8}-1}{4} \simeq-0,25 \\
+\end{align*} \\
+Por lo tanto, bajo este programa, la pérdida total de nivel de aprendizaje entre t = 0 y t = 4 es de 0,25 puntos. \\
+\\
+3.- Una serie de estudios clásicos muestran que la respuesta de un tipo de célula ganglionar del sistema visual de algunos organismos depende de la velocidad angular $v$ de un estímulo en movimiento. Sabiendo que la tasa de cambio de la respuesta de una célula ganglionar con respecto a v es igual a $f(v)=\frac{(2 \cdot v-10)^{-1}}{\operatorname{Ln}(10)}$, obtener razonadamente: a) la función que relaciona la respuesta de la célula dado $v$, sabiendo que cuando $v$ es igual a 55 la magnitud de la respuesta es igual a 5; b) calcular la respuesta media en el intervalo de velocidades angulares [15, 105]; y c) ¿es posible obtener la respuesta media para cualquier rango de velocidades? ¿Por qué? \\
 \end{document}
