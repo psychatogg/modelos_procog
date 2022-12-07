@@ -141,4 +141,54 @@ b) En este caso, sí que tenemos información respecto al lapso temporal de medi
 Por lo tanto, bajo este programa, la pérdida total de nivel de aprendizaje entre t = 0 y t = 4 es de 0,25 puntos. \\
 \\
 3.- Una serie de estudios clásicos muestran que la respuesta de un tipo de célula ganglionar del sistema visual de algunos organismos depende de la velocidad angular $v$ de un estímulo en movimiento. Sabiendo que la tasa de cambio de la respuesta de una célula ganglionar con respecto a v es igual a $f(v)=\frac{(2 \cdot v-10)^{-1}}{\operatorname{Ln}(10)}$, obtener razonadamente: a) la función que relaciona la respuesta de la célula dado $v$, sabiendo que cuando $v$ es igual a 55 la magnitud de la respuesta es igual a 5; b) calcular la respuesta media en el intervalo de velocidades angulares [15, 105]; y c) ¿es posible obtener la respuesta media para cualquier rango de velocidades? ¿Por qué? \\
+\\
+a) Dado que tenemos la tasa de cambio, y necesitamos obtener una función de magnitud, calclulamos en primer lugar la integral indefinida: \\
+\\
+\begin{align*}
+& \int \frac{(2 \cdot v-10)^{-1}}{\ln (10)} d v \\
+& \frac{1}{\ln (10)} \int \frac{1}{2 \cdot v-10} d v \\
+& u=2 v-10 ; d u=2 d v \\
+& d v = \frac{1}{2} d u \\
+& \frac{1}{\ln (10)} \int \frac{1}{2 \cdot v-10} d v = \frac{1}{\ln (10)} \int \frac{1}{u} \cdot \frac{1}{2} d u= \\
+& \frac{1}{2 \ln (10)} \int \frac {d u}{u} =\\
+& \frac{\ln (u)}{2 \ln (10)}+C= \\
+& \frac{\ln (2 v-10)}{2 \ln (10)}+C
+\end{align*}
+\\
+Conociendo la pendiente de la función de magnitud y un par X,Y, podemos obtener la ordenada en el origen: \\
+\\
+\begin{align*}
+& 5=\frac{\ln (2 \cdot 55-10)}{2 \ln (10)}+C \\
+& 5=\frac{4,6}{2 \cdot 2,3}+C \\
+& 5=1+C \\
+& C=4 \\
+& M(v) = \frac{\ln (2 v-10)}{2 \ln (10)} + 4 \\
+\end{align*}
+\\
+b) Podemos interpretar la respuesta media como el punto medio de la recta tangente paralela a aquella que pasa por los puntos 15 y 105. Para ello, empleamos el teorema del valor medio: \\
+\\
+\begin{align*}
+& f^{\prime}(v) = \frac{f(b)-f(a)}{b-a} \\
+& \frac{1}{(2 v-10 \cdot \ln (10)}=\frac{\left(\frac{\ln (2 \cdot 105-10)}{2 \ln (10)}+4\right)-\left(\frac{\ln (2 \cdot 15-10)}{2 \ln (10)}+4\right)}{105-15} \\
+& \frac{1}{(2 v-10) \cdot \ln (10)}=\frac{5,1-4,7}{90} \\
+& \frac{1}{(2 v-10)}=5,5 \cdot 10^{-3} \cdot \ln (10) \\
+& \frac{1}{2 v-10}=0,013 \\
+& 2 v-10=76,9 \\
+& v=43,46 \\
+\end{align*}
+\\
+c) $M$ ha de ser continua en [a,b] y derivable en (a,b). Por lo que podremos calcularlo en todos los rangos comprendidos en el dominio de M: \\
+$ \operatorname{Dom} M = x \in (0, +\infty)$\\
+\\
+4.- Se ha asumido que el tiempo de respuesta, variable $t$, que muestra un participante en una tarea de búsqueda visual sigue la distribución de probabilidad $f(t)$, donde:
+
+$$
+f(t)=\left\{\begin{array}{l}
+30 \cdot t^{2} \cdot(1-t)^{2} \Leftrightarrow 0 \leq t \leq 1 \\
+0 \text { en otro caso }
+\end{array}\right.
+$$
+
+Obtener razonadamente: a) el valor esperado de $t$; b) la varianza de $t ;$ y c) la probabilidad de que la variable tome mayores o iguales a $t_{a}$.\\
+\\
 \end{document}
