@@ -191,4 +191,38 @@ $$
 
 Obtener razonadamente: a) el valor esperado de $t$; b) la varianza de $t ;$ y c) la probabilidad de que la variable tome mayores o iguales a $t_{a}$.\\
 \\
+a) El valor esperado es el momento de orden 1 \\
+\begin{align*}
+& E(T)=\int_0^1 t \cdot 30 t^2(1-t)^2 d t= \\
+& 30 \int_0^1 t^3\left(1-2 t+t^2\right) d t= \\
+& 30 \int_0^1 t^3-2 t^4+t^5 d t= \\
+& \text{Integral de la suma:} \\
+& 30\left(\int_0^1 t^3 d t-2 \int_0^1 t^4 d t+\int_0^1 t^5 d t\right)= \\
+& \text{Regla de Barrow:} \\
+& \left.\left.\left.30\left(\frac{t^4}{4}\right]_0^1+\frac{2 t^5}{5}\right]_0^1+\frac{t^6}{6}\right]_0^1\right) \simeq \\
+& 0,5 \\
+\end{align*}
+\\
+b) La varianza es el momento de orden 2 centrado en la media: \\
+\begin{align*}
+& \sigma_T^2=\int_0^1 t^2 \cdot 30 t^2(1-t)^2 d t-0,5^2= \\
+& \left.\left.\left.30\left(\frac{t^5}{5}\right]_0^1-\frac{2 t^6}{6}\right]_0^1+\frac{t^7}{7}\right]_0^1\right)-0,5^2 \simeq \\
+& 0,04 \\
+\end{align*} \\
+c) Necesitaremos la probabilidad acumulada, que en este caso podemos deducir por medio del área bajo $f(t)$, definida por $F(t)$ \\
+\\
+\begin{align*}
+& F(t)=\int_{u=t_a}^{u=t} 30 t^2\left(1-t\right)^2 d u= \\
+& \left.30 t^2(1-t)^2 \cdot u\right]_{u=t_a}^{u=t}= \\
+& 30 t^2(1-t)^2 \cdot t-30 t^2(1-t)^2 \cdot t_a= \\
+& 30 t^2\left(1-t^2\right)\left(t-t_a\right)= \\
+& P(T) \leqslant t \\
+\end{align*}
+Por lo tanto, $P(T)  \geqslant t = 1 - [30 t^2\left(1-t^2\right)\left(t-t_a\right)]$ \\
+\\
+5.- Encontrar una función $f$ y el valor de la constante $K$ tales que se cumpla:
+
+$$
+\int_{K}^{x} f(u) d u=e^{\frac{-x^{2}}{2}}-1
+$$
 \end{document}
