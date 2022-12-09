@@ -225,4 +225,22 @@ Por lo tanto, $P(T)  \geqslant t = 1 - [30 t^2\left(1-t^2\right)\left(t-t_a\righ
 $$
 \int_{K}^{x} f(u) d u=e^{\frac{-x^{2}}{2}}-1
 $$
+\\
+\begin{align*}
+& f(x)=e^{-\frac{x^2}{2}}-1+C \\
+& f^{\prime}(x)=e^{-\frac{x^2}{2}} \cdot(-x) \\
+\end{align*}
+\\
+Si $\int_{K}^{x} f(u) d u=f(x)$, entonces $\int_{K}^{x} f^{\prime}(x) d u = f(x) -C$ \\
+\begin{align*}
+& \int_{u=K}^{u=x} e^{-\frac{x^2}{2}} \cdot(-x) d u= \\
+& \left.e^{-\frac{x^2}{2}} \cdot(-x) \cdot u\right]_{u=K}^{u=x}= \\
+& {\left[e^{\frac{x^2}{2}}(-x) \cdot x\right]-\left[e^{-\frac{x^2}{2}}(-x) \cdot K\right]=}\\
+& \left(-e^{-\frac{x^2}{2}} \cdot x\right)(x-K) \\
+\end{align*}
+Hallamos $K$: \\
+\begin{align*}
+& \left(-e^{-\frac{x^2}{2}} \cdot x\right)(x-K)=e^{-\frac{x^2}{2}}-1 \\
+& K=-\frac{e^{-\frac{x^2}{2}}-1}{-e^{\frac{x}{2}} \cdot x}+x\\
+\end{align*}
 \end{document}
