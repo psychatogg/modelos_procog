@@ -1,0 +1,84 @@
+\documentclass [a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{mhchem}
+\usepackage{stmaryrd}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\graphicspath{ {.} }
+\fancyhf{}
+\fancyhead[R]{\thepage}
+\fancyhead[L]{Ejercicio T. de la Elección\\Alberto Juliana Quirós}
+\renewcommand{\headrulewidth}{0pt}
+\setlength\parindent{0pt}
+\begin{document}
+\font\titlefont = cmr12 at 30pt
+\font\subtitlefont = cmr12 at 20pt
+\allowdisplaybreaks
+
+
+\begin{titlepage}
+  \thispagestyle{fancy}
+   \begin{center}
+       \vspace*{7cm}
+
+       \textbf{\titlefont Tema 6. T. de la Elección}
+
+       \vspace{0.5cm}
+        {\subtitlefont Modelos de Procesos Cognitivos}
+            
+       \vspace{1.5cm}
+
+       \textbf{Alberto Juliana Quirós}
+
+            
+   \end{center}
+   
+\end{titlepage}
+\newpage
+\addtocounter{page}{1}
+\pagestyle{fancy}
+
+(1) En una aplicación de la Teoría de Thurstone, se ha asumido que la distribución de $X_{1}$ es $\mathrm{N}(2,1)$ y la de $X_{2}$ es $\mathrm{N}(4,1)$; además, $X_{1}$ y $X_{2}$ son linealmente independientes. Se presenta a una persona el par $\left(X_{1}, X_{2}\right)$ ¿Cuál es la probabilidad de que elija la opción $X_{1}$ ? \\
+\\
+\begin{align*}
+& X_1 \sim N(2,1) \\
+& X_2 \sim N(4,1) \\
+& \text{Obtenemos la distribución diferencia:} \\
+& D_{x_1 x_2} \sim(-2, \sqrt{2}) \\
+& Z_{x_1 x_2}=\frac{-2}{\sqrt{2}} \\
+& \text{Por lo tanto:} \\
+& P\left(x_1>x_2\right) = P\left(D_{x_1 x_2}>0\right)=\phi\left(\frac{-2}{\sqrt{2}}\right) \\
+& P\left(x_1>x_2\right)= 0,0793 \\
+\end{align*}
+\\
+(2) En una aplicando la Teoría de Thurstone, se ha observado que la probabilidad de elegir la opción $A$ frente a la $B$ es 0,20 . Sabiendo que la varianza de la fuerza atractiva de $A$ y de $B$ es 1 ¿Cuanto vale $\mu_{A}-\mu_{B}$ ?
+\\
+\begin{align*}
+& P(A>B)=0,2 \\
+& A \sim N\left(\mu_A, 1\right) \\
+& B \sim N\left(\mu_B, 1\right) \\
+& \phi^{-1}(P(A>B))=Z_{A B} \\
+& \phi^{-1}(0,2)=-0,84 \\
+& D_{A B} \sim N\left(\mu_A-\mu_B, 1\right) \\
+& Z_{A B}=\frac{\mu_A - \mu_B}{\sqrt{2} \cdot 1} \\
+& \mu_A - \mu_B=-0,84 \cdot \sqrt{2} \\
+& \mu_A-\mu_B=-1,19
+\end{align*}
+\\
+(3) Decidir, justificadamente, si la regla de la suma, en la Teoría de Thurstone, ha de cumplirse para el caso de cuatro opciones $X_{i}, X_{j}, X_{k}$ y $X_{l}$. \\ 
+\\
+*Para mayor claridad, identificaré cada elemento únicamente por su subíndice.\\
+Partiendo de distribuciones linealmente independientes $\mathrm{N}(\mu_a,\sigma)$: 
+\\
+\begin{align*}
+& Z_{i j}+Z_{j k}+Z_{k l}= \\
+& \frac{\left(\mu_i-\mu_j\right)+\left(\mu_j-\mu_k\right)+\left(\mu_k-\mu_l\right)}{\sigma \sqrt{2}}= \\
+& \frac{\mu_i-\mu_l}{\sigma \sqrt{2}}=Z_{i l}
+\end{align*}
+\\
+(4) Completar la tabla siguiente que contiene las probabilidades de elegir la alternativa $X_{i}$ cuando se presenta la bina $\left(X_{i}, X_{j}\right)(i \neq j)$, justificando la respuesta, si se cumple: a) la Teoría de Thurstone; y b) la Teoría de Luce. \\
+\includegraphics [scale=0.3]{tabla.jpg}
+\\
+\end{document}
