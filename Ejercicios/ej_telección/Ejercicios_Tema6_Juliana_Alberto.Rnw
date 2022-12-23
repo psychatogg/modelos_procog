@@ -81,4 +81,44 @@ Partiendo de distribuciones linealmente independientes $\mathrm{N}(\mu_a,\sigma)
 (4) Completar la tabla siguiente que contiene las probabilidades de elegir la alternativa $X_{i}$ cuando se presenta la bina $\left(X_{i}, X_{j}\right)(i \neq j)$, justificando la respuesta, si se cumple: a) la Teoría de Thurstone; y b) la Teoría de Luce. \\
 \includegraphics [scale=0.3]{tabla.jpg}
 \\
+a) Dado que $\Phi\left(\Phi^{-1}\left(P\left(A>B\right)\right)+\Phi^{-1}\left(P\left(B>C\right)\right)\right)=P\left(A>C\right)$, buscamos en primer lugar las Zs respectivas
+\begin{center}
+\begin{tabular}{ |c|c|c|c| } 
+ \hline
+  & A & B & C \\
+ \hline
+ A & - & 0,36 & $Z_{A C}$ \\ 
+ B &  & - & 1,04 \\
+ C &  &  & - \\
+ \hline
+\end{tabular}
+\end{center}
+$P\left(A>C\right) = \Phi(0,36+1,04) = \Phi(1,4) = 0,9207$ \\
+\\
+b) Partiendo del cumplimiento del primer axioma: \\
+\begin{align*}
+& \frac{P_T(A)}{P_T(B)}=\frac{0,64}{1-0,64}=1,78 \\
+& \frac{P_T(B)}{P_T(C)}=\frac{0,85}{1-0,85}=5,7 \\
+& \text{Resolvemos el sistema de ecuaciones:} \\
+& P_T(A)=1,78 P_T(B) \\
+& 1,78 P_T(B)+P_T(B)+P_T(C)=1 \\
+& P_T(B)=5,7 P_T(C) \\
+& 1,78 \cdot 5,7 P_T(C)+5,7 P_T(C)+P(C)=1 \\
+& 10,146 P_T(C)+5, 7 P_T(C)+P_r(C)=1 \\
+& 16,85 P_T(C)=1 \\
+& P_T(C)=0,06 \\
+& P_T(B)=5,7 \cdot 0,06=0,34 \\
+& P_T(A)=1,78 \cdot 0,34=0,61 \\
+& \text{Si $\frac{P_T(A)}{P_T(C)}=\frac{P(A, C)}{1-P(A, C)}$, entonces:} \\
+& \frac{0,61}{0,06}=\frac{P(A, C)}{1-P(A, C)} \\
+& 10,17 -10,17 P(A, C)=P(A, C) \\
+& P(A, C)=0,91 \\
+\end{align*}
+\\
+(5) Las probabilidades de elección de cuatro opciones son $P_{T}\left(X_{A}\right)=0,1, P_{T}\left(X_{B}\right)=0,2, P_{T}\left(X_{C}\right)$ $=0,3$ y $P_{T}\left(X_{D}\right)=0,4$. Asumiendo que se cumple la regla de Luce, obtener la probabilidad de elegir la opción $X_{A}:$ a) si se ha de elegir entre las tres primeras opciones; y b) si se ha de elegir entre las dos primeras opciones. \\
+\\
+
+
+
+
 \end{document}
