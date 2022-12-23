@@ -95,7 +95,7 @@ a) Dado que $\Phi\left(\Phi^{-1}\left(P\left(A>B\right)\right)+\Phi^{-1}\left(P\
 \end{center}
 $P\left(A>C\right) = \Phi(0,36+1,04) = \Phi(1,4) = 0,9207$ \\
 \\
-b) Partiendo del cumplimiento del primer axioma: \\
+b) Partiendo del cumplimiento del primer axioma, y por lo tanto, empleando la regla de la razón constante: \\
 \begin{align*}
 & \frac{P_T(A)}{P_T(B)}=\frac{0,64}{1-0,64}=1,78 \\
 & \frac{P_T(B)}{P_T(C)}=\frac{0,85}{1-0,85}=5,7 \\
@@ -117,8 +117,24 @@ b) Partiendo del cumplimiento del primer axioma: \\
 \\
 (5) Las probabilidades de elección de cuatro opciones son $P_{T}\left(X_{A}\right)=0,1, P_{T}\left(X_{B}\right)=0,2, P_{T}\left(X_{C}\right)$ $=0,3$ y $P_{T}\left(X_{D}\right)=0,4$. Asumiendo que se cumple la regla de Luce, obtener la probabilidad de elegir la opción $X_{A}:$ a) si se ha de elegir entre las tres primeras opciones; y b) si se ha de elegir entre las dos primeras opciones. \\
 \\
-
-
-
-
+a)
+\begin{align*}
+& T = \{X_A,X_B,X_C,X_D\} \\
+& R = \{X_A,X_B,X_C\} \\
+& P_T (X_A) = P_T(R) \cdot P_R(X_A) \\
+& P_R(X_A) = \frac {P_T(X_A)} {P_T(R)} \\
+&P_R(X_A) = \frac {0,1} {0,1 +0,2+0,3} \\
+&P_R(X_A) = 0,17 \\
+\end{align*}
+b)
+\begin{align*}
+& T = \{X_A,X_B,X_C,X_D\} \\
+& R = \{X_A,X_B\} \\
+& P_T (X_A) = P_T(R) \cdot P_R(X_A) \\
+& P_R(X_A) = \frac {P_T(X_A)} {P_T(R)} \\
+&P_R(X_A) = \frac {0,1} {0,1 +0,2} \\
+&P_R(X_A) = 0,33 \\
+\end{align*}
+\\
+(6) Se tienen las opciones $A, B, C, y D$. Las probabilidades de elección cuando se presentan las cuatro opciones son: $P_{T}(A)=0,1, P_{T}(B)=0,2, P_{T}(C)=0,3$ y $P_{T}(D)=0$,4. Asumiendo la Teoría de Luce, obtener: a) las fuerzas atractivas en la escala $v$ fijando $v(B)=1$; b) los valores escalares en la escala $u$ de las cuatro opciones, siendo $u(X)=\operatorname{Ln}[v(X)]$ (donde $X$ toma los valores: $A, B, C, D$ ). \\
 \end{document}
