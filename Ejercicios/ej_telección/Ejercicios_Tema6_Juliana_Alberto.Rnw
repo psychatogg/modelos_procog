@@ -161,4 +161,46 @@ b) \\
 & u(D)=\ln (2)= 0,69 \\
 \end{align*}
 \\
+(7) La expresión más extendida de la Teoría de Luce establece que la relación entre las fuerzas atractivas y la probabilidad es:
+
+$$
+\frac{V\left(X_{A}\right)}{\sum V(X)}=P_{T}\left(X_{A}\right)
+$$
+
+Aplicar esta expresión a los resultados del ejercicio 6 sólo del apartado a) y comprobar que son correctos. \\
+\\
+\begin{align*}
+& \frac{0,5}{0,5+1+1,5+2}=0,1=P_T(A) \\
+& \frac{1}{5}=0,2=P_T(B) \\
+& \frac{1,5}{5}=0,3=P_T(C) \\
+& \frac{2}{5}=0,4=P_T(D) \\
+\end{align*}
+\\
+(8) En el modelo de respuesta nominal, en un ítem de opción múltiple de cuatro alternativas, la probabilidad de elegir la alternativa $j$ (donde $j$ toma los valores: 1, 2, 3, 4), si la persona tiene un nivel de conocimientos $\theta$, viene dada por la expresión:
+
+$$
+P(j \mid \theta)=\frac{e^{a_{j} \cdot \theta+c_{j}}}{\sum_{h=1}^{4} e^{a_{h} \cdot \theta+c_{h}}}
+$$
+
+En la expresión anterior, $a_{h} \mathrm{y} c_{h}$ son parámetros que describen cada alternativa del ítem. En el modelo nominal, ¿cuánto vale el valor escalar (fuerza atractiva) de cada alternativa del ítem? \\
+\\
+$$
+T=\{1,2,3,4\}
+$$
+Podemos interpretar $P_R(j)=P(j \mid \theta)$, dado que se trata de la probabilidad de elegir una alternativa frente a las demás, dado el espacio de alternativas del que dispone el sujeto \\
+Siguiendo esta lógica, $P_T(R)=\theta$, que es todo el espacio planteable del que dispone el sujeto (conocimiento).  \\
+Bajo el marco del primer axioma del modelo de Luce: \\
+$$
+P_T(j)=P_T(R) \cdot P_R(j)
+$$
+\\
+Entonces: \\
+$$
+P_T(j) = \theta \cdot \frac{e^{a_j \cdot \theta+c_j}}{\sum_{h=1}^4 e^{a_h \cdot \theta+c_h}}
+$$
+\\
+Por la regla de razón constante:
+$$
+v(j)=\theta \cdot \frac{\frac{e^{a_j \cdot \theta+c_j}}{\sum_{h=1}^4 e^{a_h \cdot \theta+c_h}}} {P_T(X_{arbt})}
+$$
 \end{document}
